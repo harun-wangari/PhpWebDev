@@ -27,7 +27,7 @@ if($num>40){
 //    echo"night";
 //}
 echo "<hr>";
-$grade = 90;
+$grade = 00;
 echo "<br>";
 echo "your grade : $grade";
 echo "<br>";
@@ -37,6 +37,8 @@ if($grade>80 && $grade<=100){
     echo"Credit";
 }elseif($grade>40 && $grade<=60){
     echo"Pass";
-}else{
+}elseif($grade>=0 && $grade<=40){
     echo"Fail";
+}else{
+    echo"invalid grades";
 }
