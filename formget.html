@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form using get method</title>
+</head>
+<body>
+<form action="submitget.php" method="get">
+    <h2>2022 election survey</h2>
+    <label for="name">Full Name:</label><br>
+    <input type="text" name="name" id="name"><br>
+    <label for="email" id="email">Email:</label><br>
+    <input type="text" name="email"><br>
+    <label for="tel">Telephone:</label><br>
+    <input type="tel" name="tel" id="tel"><br>
+    <label for="gender" id="gender">Gender:</label><br>
+    male <input type="radio" name="gender" value="Male" checked>
+    Female<input type="radio" name="gender" value="Female"><br>
+    <label for="county" id="county">County:</label><br>
+    <input type="text" name="county"><br>
+    <label for="constituency" id="constituency">Constituency:</label><br>
+    <input type="text" name="constituency"><br>
+    <label for="ward">Ward:</label><br>
+    <input type="text" name="ward" id="ward"><br>
+    <label for="vote">Will you vote in the coming 2022 elections?:</label><br>
+    Yes<input type="radio" name="vote" value="Yes" checked>
+    No<input type="radio" name="vote" value="No"><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
